@@ -1,4 +1,4 @@
-/* Program for detecting the air quality and sending data to Parse/IoT Analytics
+/* Program for detecting the air quality and sending data to Parse/IoT Analytics with Intel Edison
 Copyright Appollution.
 */
 
@@ -15,7 +15,6 @@ Copyright Appollution.
 #include <sys/time.h>
 #include <stdlib.h>
 #include <curl/curl.h>
-
 using namespace std;
 
 const string url = "https://api.parse.com/1/classes/Sensors/mWElcljqTJ";
